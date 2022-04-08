@@ -1,0 +1,17 @@
+body{
+    background-image: url(/images/bg-pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    background-color: rgba(128, 128, 128, 0.73);
+}
+.picture{
+    height: 90vh;
+    padding: 2rem;
+    border-radius: 14px solid red;
+}
+.highlighted{
+    background: #ebe4adf5;
+    padding: .1rem;
+    border-radius: 6px;
+}

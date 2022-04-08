@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saving Calculator</title>
+    <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/CSS/style.css">
+</head>
+
+<body class="">
+
+
+
+
+    <header>
+       
+    </header>
+    <!-- main part  -->
+    <main class="container bg-warning p-2">
+        <h1 class="text-primary text-center my-4 ">Savings Calculator</h1>
+
+        <section class="row">
+            <div class="col-lg-6">
+                <img class="w-100 picture" src="images/picture.jpg" alt="">
+            </div>
+            <div class="col-lg-6  form-part">
+                <!-- income Part  -->
+                <div class="w-50 mx-auto">
+                    <h2 class="text-center">Income</h2>
+                    <div class="d-flex align-items-center justify-content-between my-3">
+                        <label class="fw-bold" for="income">Income:</label>
+                        <input class="w-75 d-inline form-control" type="text" name="" id="income">
+                    </div>
+                </div>
+                <!-- Expense part  -->
+                <div class="w-50 mx-auto">
+                    <h3 class="text-center mt-3">Expense</h3>
+                    <div class="d-flex align-items-center justify-content-between my-3">
+                        <label class="fw-bold" for="food">Food:</label>
+                        <input class="w-75 d-inline form-control" type="text" name="" id="food">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between my-3">
+                        <label class="fw-bold" for="rent">Rent:</label>
+                        <input class="w-75 d-inline form-control" type="text" name="" id="rent">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between my-3">
+
+                        <label class="fw-bold" for="others">Others:</label>
+                        <input class="w-75 d-inline form-control" type="text" name="" id="others">
+                    </div>
+                    <button class="btn btn-primary w-100" id="calculate">Calculate</button>
+                    <div class="mt-3 text-center">
+                        <h4 class="my-4 highlighted">Total Expense: <span id="total-expense"></span></h4>
+                        <h4 class="mb-4 highlighted"> Balance:<span id="balance"></span></h4>
+                    </div>
+                </div>
+
+                <!-- Savings Ammount  -->
+                <div class="savings w-50 mx-auto">
+                    <label class="fw-bold" for="save">Save</label>
+                    <input class="w-25 form-control d-inline" type="text" name=""
+                        id="saving-value"> <span class="fw-bold">%</span>
+                    <button class='btn btn-primary w-50' id="save">Save</button>
+                    
+                   <div class="text-center mt-3">
+                    <h4 class="m-2 highlighted">Saving Ammount: <span id="saving-ammount"></span></h4>
+                    <h4 class="m-2 highlighted">Remaing Balance: <span id="remaining-balance"></span></h4>
+                   </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+
+    </main>
+
+    <!-- footer part  -->
+
+    <footer>
+<p class="text-center text-light">&copy; All right reserved to Savings Calculator-2022</p>
+
+    </footer>
+
+
+
+
+
+
+    <script src="./assets/JS/script.js"></script>
+</body>
+
+</html>
