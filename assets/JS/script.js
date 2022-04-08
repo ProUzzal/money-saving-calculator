@@ -18,13 +18,11 @@ document.getElementById("calculate").addEventListener('click', function () {
         }
         else {
             const expenseValue = food + rent + others;
-            function expenseValueFunc(value) {
-                return value;
-            }
-            expenseValueFunc(expenseValue);
-
-
+           
             
+
+
+
             if (incomeValue < expenseValue) {
                 alert("Income can not be less than expense value!!")
             } else {
@@ -52,7 +50,8 @@ function savingFunc() {
     const savingRate = parseFloat(document.getElementById('saving-value').value);
     const balanceValue = Number(balance().innerText);
     const incomeValue = incomeAmmount();
-    console.log(incomeValue);
+
+    //condition 
     if (savingRate < 0 || isNaN(savingRate)) {
         alert("Please enter a valid number");
     } else if (isNaN(incomeValue)) {
@@ -63,7 +62,7 @@ function savingFunc() {
 
         const savingsValue = document.getElementById('saving-ammount');
         const savingsAmmount = (incomeValue * savingRate) / 100;
-        console.log(expenseValueFunc());
+       
         if (balanceValue == 0) {
             savingsValue.innerText = savingsAmmount;
             //remaining balance
