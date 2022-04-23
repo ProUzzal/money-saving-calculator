@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,15 +8,11 @@
     <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/CSS/style.css">
 </head>
-
-<body class="">
-
-
-
-
+<body>
+    <!-- 
     <header>
-       
-    </header>
+
+    </header> -->
     <!-- main part  -->
     <main class="container bg-warning p-2">
         <h1 class="text-primary text-center my-4 ">Savings Calculator</h1>
@@ -60,31 +55,27 @@
 
                 <!-- Savings Ammount  -->
                 <div class="savings w-50 mx-auto">
-                    <label class="fw-bold" for="save">Save</label>
-                    <input class="w-25 form-control d-inline" type="text" name=""
-                        id="saving-value"> <span class="fw-bold">%</span>
-                    <button class='btn btn-primary w-50' id="save">Save</button>
-                    
-                   <div class="text-center mt-3">
-                    <h4 class="m-2 highlighted">Saving Ammount: <span id="saving-ammount"></span></h4>
-                    <h4 class="m-2 highlighted">Remaing Balance: <span id="remaining-balance"></span></h4>
-                   </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <label class="fw-bold" for="save">Save</label>
+                        <input class="w-25 form-control d-inline" type="text" name="" id="saving-value"> <span
+                            class="fw-bold">%</span>
+                        <button class='btn btn-primary w-50' id="save">Save</button>
+                    </div>
+
+                    <div class="text-center mt-3">
+                        <h5 class="m-2 highlighted">Saving Ammount: <span id="saving-ammount"></span></h5>
+                        <h5 class="m-2 highlighted">Remaing Balance: <span id="remaining-balance"></span></h5>
+                    </div>
                 </div>
             </div>
 
         </section>
 
-
-
-
-
-
     </main>
-
     <!-- footer part  -->
 
     <footer>
-<p class="text-center text-light">&copy; All right reserved to Savings Calculator-2022</p>
+        <p class="text-center text-light fw-bold">&copy; All right reserved to Savings Calculator-2022</p>
 
     </footer>
 
